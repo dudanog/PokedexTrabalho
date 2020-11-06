@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(37, 36, 36);
+    margin: 0px;
+    padding: 0px;
+}
+#header {
+    background: #db2020;
+    height: 190px;
+    margin: -21px 0px;
+}
+/*estilizacao dos hyperlinks*/
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    color: #db2020;
+}
+/*definicao img logo*/
+#logo {
+    margin: 10px 50px;
+    filter: invert(100%);
+    width: 140px;
+}
+/*definicao dos icones de usuario e sign out*/
+#barra-icones {
+    margin: -70px 35px;
+}
+.icones {
+    float: right;
+    width: 22px;
+    filter: invert(100%);
+    margin-left: 30px;
+}
+/*informacoes do usuario*/
+#nome-usuario {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 3px 0px 0px;
+    letter-spacing: 1px;
+    font-weight: initial;
+    font-size: 16px;
+}
+#bloco-usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foto-usuario {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+/*configurações do menu*/
+.center-nav {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+.center-nav li {
+    align-items: center;
+    margin: 0px 18px;
+    list-style-type: none;
+    font-size: small;
+}
+.center-nav li:first-child {
+    margin-left: -18px;
+}
+#pokedex a {
+    color: #db2020;
+}
+/*aba de pesquisa*/
+#icone-busca {
+    width: 16px;
+}
+#busca{
+    background-color: none;
+    border-bottom: solid 1px;
+    width: 270px;
+    margin: 180px 0px 40px 100px;
+}
+#barra-buscar{
+    float: left;
+    background-color: transparent;
+    font-size: 16px;
+    border: none;
+    height: 14px;
+    width: 250px;
+    outline: 0;
+    font-size: 15px;
+}
+/*numeracao das paginas*/
+.numeracao {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+.numeracao li {
+    align-items: center;
+    margin: 0px 5px;
+    margin-block-start: none;
+    list-style-type: none;
+    color: #db2020;
+    padding: 5px ;
+}
+#pagina-atual li {
+    background: #e01414;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+/*tabela de pokemons*/
+.shrink-1 {
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.shrink-1-basis {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 300px;
+}
+/*quebrar a linha*/
+.flex-wrap {
+	flex-wrap: wrap;
+}
+.item {
+	margin: 0px 50px 25px 0px;
+	background: none;
+	text-align: center;
+    border: 1px solid #db2020;
+    border-radius: 3px;
+    box-shadow: 3px 3px 8px #DCDCDC;
+}
+/* Flex Container */
+.container {
+    max-width: 1100px;
+    max-height: auto;
+    margin-left: 100px;
+	display: flex;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+/*definicao do icone do pokemon*/
+.pokemonb {
+    width: 80px;
+    float: left;
+    margin: 10px;
+}
+.pokemond {
+    width: 100px;
+    float: left;
+    margin: 15px;
+}
+/*nome do pokemon*/
+.nomepokemon {
+    text-transform: none;
+    font-size: medium;
+}
+/*descricao do pokemon*/ 
+.descricaonormal {
+    display: inline;
+    padding: 4px 9px;
+    margin-right: 70px;
+    color: #ebebeb;
+    background: #808080;
+    border-radius: 7px;
+    font-weight: 100;
+ }
+.descricaograss {
+    display: inline;
+    padding: 4px 9px;
+    margin: 5px;
+    color: #ebebeb;
+    background: #3CB371	;
+    border-radius: 7px;
+    font-weight: 100;
+
+}
+.descricaopoison {
+    display: inline;
+    color: #ebebeb;
+    padding: 4px 9px;
+    display: inline;
+    background: #A020F0;
+    border-radius: 7px;
+    font-weight: 100;
+}
+.estrela {
+    float: right;
+    width: 20px;
+    margin: 10px 20px;
+}
+/*rodape*/
+footer {
+    clear: both;
+    text-align: right;
+    font-size: 10px;
+    margin: 10px;
+}
